@@ -113,26 +113,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Stats Bar */}
-      <div className="bg-slate-900 border-b border-slate-700">
-        <div className="max-w-7xl mx-auto px-6 py-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="text-4xl font-bold text-cyan-400 mb-2">$2M+</div>
-              <div className="text-slate-400">Annual Cost Savings</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-cyan-400 mb-2">150+</div>
-              <div className="text-slate-400">Vendors Managed</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-cyan-400 mb-2">$10M+</div>
-              <div className="text-slate-400">Contract Value</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-6 py-16">
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
